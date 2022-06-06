@@ -2,6 +2,7 @@ package com.company;
 
 import java.util.ArrayList;
 
+
 public class Main {
 
     public static void main(String[] args) {
@@ -13,9 +14,13 @@ public class Main {
         priceFeed1.add(price1);
         priceFeed1.add(price2);
 
-        FXPriceFeed newPriceFeed = new FXPriceFeed(priceFeed1);
-        System.out.println(newPriceFeed);
+        CommissionService test1 = new CommissionService();
+        test1.applyBidCommission(priceFeed1);
+        test1.applyAskCommission(priceFeed1);
+        System.out.println(priceFeed1);
+
 
 
     }
+
 }

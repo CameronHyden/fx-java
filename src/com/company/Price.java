@@ -3,6 +3,7 @@ package com.company;
 import java.sql.Timestamp;
 import java.util.Date;
 
+
 public class Price {
     private int id;
     private String name;
@@ -60,4 +61,5 @@ public class Price {
                 "," + ask +
                 "," + dateCreated ;
     }
+
 }
