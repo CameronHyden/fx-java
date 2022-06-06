@@ -54,11 +54,10 @@ public class Price {
 
     @Override
     public String toString() {
-        return
-                '{' + id + "," + name + '\'' +
+        return  id +
+                "," + name + '\'' +
                 "," + bid +
                 "," + ask +
-                "," + dateCreated +
-                '}';
+                "," + dateCreated ;
     }
 }
