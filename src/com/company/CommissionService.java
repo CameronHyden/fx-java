@@ -1,2 +1,4 @@
-package com.company;public class ComissionService {
+package com.company;
+
+public class CommissionService {
 }
